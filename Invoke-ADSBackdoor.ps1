@@ -50,12 +50,6 @@ Param(
    
 )
 
-
-Write-Host  "  -------------------------------------------------------------"
-Write-Host " |                 Created by Matt Nelson                      |"
-Write-Host " |                       @enigma0x3                            |"
-Write-Host " |                www.enigma0x3.wordpress.com                  |"
-Write-Host  "  -------------------------------------------------------------"
 $TextfileName = [System.IO.Path]::GetRandomFileName() + ".txt"
 $textFile = $TextfileName -split '\.',([regex]::matches($TextfileName,"\.").count) -join ''
 $VBSfileName = [System.IO.Path]::GetRandomFileName() + ".vbs"
