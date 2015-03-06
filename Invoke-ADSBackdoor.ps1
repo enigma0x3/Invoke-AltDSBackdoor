@@ -1,7 +1,7 @@
 function Invoke-ADSBackdoor{
 <#
 .SYNOPSIS
-Powershell Script that will use Alternate Data Streams to achieve fileless persistence
+Powershell Script that will use Alternate Data Streams to achieve persistence
 Author: Matt Nelson (@enigma0x3)
 
 .DESCRIPTION
